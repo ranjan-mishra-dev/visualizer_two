@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model = load_model(r'C:\Users\Ranjan Mishra\visualize_folder2\Garbage_Class_new_mo.keras')
+model = load_model(r'Garbage_Class_new_mo.h5')
 
 # Define waste categories, sections with detailed content, and associated dustbin colors
 categories = {
